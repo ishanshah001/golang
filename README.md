@@ -16,9 +16,9 @@ I will tick off one topic each day.
   - `var`, `const`, `:=`  
   - Basic types: `int`, `float64`, `string`, `bool`  
   - Take user input with `fmt.Scan`  
-<!-- 
   - **Practice:** Build a simple calculator  
 
+<!-- 
 - [ ] **Day 3:** Control Flow (if, for, switch)  
   - `if-else`, `switch`, single `for` loop  
   - **Practice:** Prime number checker & day-of-week switch  
