@@ -11,11 +11,12 @@ I will tick off one topic each day.
   - Install Go, set up workspace (`go mod init`, `go run`)
   - Write "Hello, World!"  
   - Print name, age, favorite programming language  
-<!-- 
+
 - [ ] **Day 2:** Variables, Constants, Types & I/O  
   - `var`, `const`, `:=`  
   - Basic types: `int`, `float64`, `string`, `bool`  
   - Take user input with `fmt.Scan`  
+<!-- 
   - **Practice:** Build a simple calculator  
 
 - [ ] **Day 3:** Control Flow (if, for, switch)  
