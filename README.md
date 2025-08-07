@@ -8,7 +8,7 @@ I will tick off one topic each day.
 ## Schedule
 
 - [ ] **Day 1:** Setup & First Go Program  
-  - Install Go, set up workspace (`go mod init`, `go run`, `go build`)  
+  - Install Go, set up workspace (`go mod init`, `go run`)
   - Write "Hello, World!"  
   - Print name, age, favorite programming language  
 <!-- 
