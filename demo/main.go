@@ -18,10 +18,12 @@ func main() {
 	fmt.Println("Get your tickets!")
 	fmt.Printf("Total tickets: %d. There are %d tickets remaining\n", CONFERENCE_TICKETS, remainingTickets)
 
+	// variables
 	userName := "Tom" // variables only
 	var userTicket = 2
 	email := ""
 
+	// input output
 	fmt.Printf("%s booked %d tickets.\n", userName, userTicket)
 	fmt.Printf("userName is %T and userTicket is %T\n", userName, userTicket)
 
@@ -39,4 +41,33 @@ func main() {
 
 	println(remainingTickets, "remain.")
 
+	// arrays
+	var bookings [50]string
+	bookings[0] = userName
+	bookings[1] = "Adam"
+	fmt.Println(bookings[0])
+	fmt.Printf("Bookings: %v\n", bookings)
+	fmt.Printf("Length of array: %d\n", len(bookings))
+
+	// slices
+	var slices []string
+	slices = append(slices, "Ishan")
+	slices = append(slices, "Brett")
+	fmt.Printf("Slices: %v\n", slices)
+	fmt.Printf("Length of slice: %d\n", len(slices))
+
+	// loops
+	var numUsers int
+	fmt.Println("Enter number of users")
+	fmt.Scan(&numUsers)
+
+	// standard for loop
+	var name string
+	for i := 0; i < numUsers; i++ {
+		fmt.Println("Enter name")
+		fmt.Scan(&name)
+		slices = append(slices, name)
+	}
+
+	fmt.Println(slices)
 }

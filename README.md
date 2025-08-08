@@ -18,11 +18,11 @@ I will tick off one topic each day.
   - Take user input with `fmt.Scan`  
   - **Practice:** Build a simple calculator  
 
-<!-- 
+
 - [ ] **Day 3:** Control Flow (if, for, switch)  
   - `if-else`, `switch`, single `for` loop  
-  - **Practice:** Prime number checker & day-of-week switch  
-
+  - **Practice:** Prime number checker
+<!-- 
 - [ ] **Day 4:** Functions & Error Handling  
   - Declaring functions, multiple returns  
   - `error` type & `errors.New`  
