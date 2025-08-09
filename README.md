@@ -22,12 +22,12 @@ I will tick off one topic each day.
 - [ ] **Day 3:** Control Flow (if, for, switch)  
   - `if-else`, `switch`, single `for` loop  
   - **Practice:** Prime number checker
-<!-- 
+
 - [ ] **Day 4:** Functions & Error Handling  
   - Declaring functions, multiple returns  
   - `error` type & `errors.New`  
   - **Practice:** `divide(a, b)` with error on `b == 0`  
-
+<!-- 
 - [ ] **Day 5:** Arrays, Slices & Maps  
   - Arrays vs slices, `append()`, `copy()`  
   - Maps (`map[string]int`)  
