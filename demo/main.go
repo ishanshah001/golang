@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 func main() {
@@ -70,4 +71,34 @@ func main() {
 	}
 
 	fmt.Println(slices)
+
+	// maps
+	var mymap = make(map[string]string)
+	mymap["fName"] = "Ishan"
+	mymap["lName"] = "S"
+	mymap["tickets"] = strconv.FormatUint(30, 10)
+
+	fmt.Println(mymap)
+
+	var booking_slice = make([]map[string]string, 0)
+	// keeps overwriting
+	var fname string
+	var lname string
+	var tickets string
+	for i := 0; i < numUsers; i++ {
+		fmt.Println("Enter fname")
+		fmt.Scan(&fname)
+		fmt.Println("Enter lname")
+		fmt.Scan(&lname)
+		fmt.Println("Enter tickets")
+		fmt.Scan(&tickets)
+		var mymap = make(map[string]string)
+		mymap["lName"] = lname
+		mymap["fName"] = fname
+		mymap["tickets"] = tickets
+		booking_slice = append(booking_slice, mymap)
+	}
+
+	fmt.Println(booking_slice)
+
 }

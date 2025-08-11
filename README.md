@@ -27,12 +27,12 @@ I will tick off one topic each day.
   - Declaring functions, multiple returns  
   - `error` type & `errors.New`  
   - **Practice:** `divide(a, b)` with error on `b == 0`  
-<!-- 
+
 - [ ] **Day 5:** Arrays, Slices & Maps  
-  - Arrays vs slices, `append()`, `copy()`  
+  - Arrays vs slices, `append()` 
   - Maps (`map[string]int`)  
   - **Practice:** Average of numbers & character frequency counter  
-
+<!-- 
 - [ ] **Day 6:** Structs & Methods  
   - Create structs, methods with receivers  
   - Pointer vs value receivers  
