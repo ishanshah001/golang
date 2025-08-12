@@ -32,12 +32,12 @@ I will tick off one topic each day.
   - Arrays vs slices, `append()` 
   - Maps (`map[string]int`)  
   - **Practice:** Average of numbers & character frequency counter  
-<!-- 
+
 - [ ] **Day 6:** Structs & Methods  
   - Create structs, methods with receivers  
   - Pointer vs value receivers  
   - **Practice:** `Student` struct with `PrintDetails()` method  
-
+<!-- 
 - [ ] **Day 7:** Interfaces & Polymorphism  
   - Declaring interfaces  
   - Implementing for different types  
