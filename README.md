@@ -37,12 +37,12 @@ I will tick off one topic each day.
   - Create structs, methods with receivers  
   - Pointer vs value receivers  
   - **Practice:** `Student` struct with `PrintDetails()` method  
-<!-- 
+
 - [ ] **Day 7:** Interfaces & Polymorphism  
   - Declaring interfaces  
   - Implementing for different types  
   - **Practice:** `Shape` interface with `Area()` for `Circle` & `Rectangle`  
-
+<!-- 
 ---
 
 ### **Week 2: Go Deep Dive**
