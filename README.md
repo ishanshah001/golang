@@ -42,15 +42,12 @@ I will tick off one topic each day.
   - Declaring interfaces  
   - Implementing for different types  
   - **Practice:** `Shape` interface with `Area()` for `Circle` & `Rectangle`  
-<!-- 
----
 
-### **Week 2: Go Deep Dive**
-- [ ] **Day 8:** Defer, Panic & Recover  
+- [ ] **Day 8:** Higher Order Function, Closure, Defer, Panic & Recover  
   - Using `defer` for cleanup  
   - `panic` & `recover` for safe error handling  
   - **Practice:** Division function with panic recovery  
-
+<!-- 
 - [ ] **Day 9:** JSON & File Handling  
   - `encoding/json` for Marshal/Unmarshal  
   - File reading/writing (`os`, `ioutil`)  
