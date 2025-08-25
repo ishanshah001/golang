@@ -47,16 +47,11 @@ I will tick off one topic each day.
   - Using `defer` for cleanup  
   - `panic` & `recover` for safe error handling  
   - **Practice:** Division function with panic recovery  
-<!-- 
-- [ ] **Day 9:** JSON & File Handling  
-  - `encoding/json` for Marshal/Unmarshal  
-  - File reading/writing (`os`, `ioutil`)  
-  - **Practice:** Read text file & count words, save struct as JSON  
 
-- [ ] **Day 10:** Concurrency — Goroutines  
+- [ ] **Day 9:** Concurrency — Goroutines  
   - `go` keyword to run concurrent functions  
   - **Practice:** Goroutines printing numbers & letters  
-
+<!-- 
 - [ ] **Day 11:** Concurrency — Channels & Select  
   - Unbuffered & buffered channels  
   - `select` for multiple channel operations  
